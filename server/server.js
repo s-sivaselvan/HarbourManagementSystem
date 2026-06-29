@@ -12,7 +12,7 @@ const server = http.createServer(app);
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://harbourmanagementfrontend.onrender.com'
+  'https://smartharbour.onrender.com'
 ];
 if (process.env.CLIENT_URL) {
   const envOrigins = process.env.CLIENT_URL.split(',').map(url => url.trim());
