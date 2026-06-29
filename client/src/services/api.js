@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://harbourmanagementbackend.onrender.com/api',
+  baseURL: 'https://harbourmanagementsystem-7w2l.onrender.com/api',
   headers: { 'Content-Type': 'application/json' }
 });
 

@@ -37,7 +37,7 @@ const Settings = () => {
         <div className="glass-card p-6">
           <h3 className="font-bold text-slate-700 dark:text-white mb-4 flex items-center gap-2"><Info className="w-5 h-5" /> System Info</h3>
           <div className="space-y-2 text-sm">
-            {[['System', 'Harbour Management System v1.0'],['Stack', 'MERN (MongoDB, Express, React, Node)'],['Backend', 'https://harbourmanagementbackend.onrender.com'],['Frontend', window.location.origin]].map(([k, v]) => (
+            {[['System', 'Harbour Management System v1.0'],['Stack', 'MERN (MongoDB, Express, React, Node)'],['Backend', 'https://harbourmanagementsystem-7w2l.onrender.com'],['Frontend', window.location.origin]].map(([k, v]) => (
               <div key={k} className="flex justify-between py-1.5 border-b border-slate-100 dark:border-slate-700 last:border-0">
                 <span className="text-slate-500 dark:text-slate-400">{k}</span>
                 <span className="font-medium text-slate-700 dark:text-slate-200 font-mono text-xs">{v}</span>

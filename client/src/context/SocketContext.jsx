@@ -12,7 +12,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      socketRef.current = io('https://harbourmanagementbackend.onrender.com');
+      socketRef.current = io('https://harbourmanagementsystem-7w2l.onrender.com');
       const socket = socketRef.current;
 
       socket.on('connect', () => {
